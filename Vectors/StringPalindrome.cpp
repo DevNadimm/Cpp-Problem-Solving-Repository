@@ -25,7 +25,7 @@ int main() {
 
     for (int i = 0; i < words.size(); i++) {
         if (words[i] == reversedWords[i]) {
-            string palindrome = reverseString(words[i]);
+            string palindrome = words[i];
             palindromes.push_back(palindrome);
         }
     }
