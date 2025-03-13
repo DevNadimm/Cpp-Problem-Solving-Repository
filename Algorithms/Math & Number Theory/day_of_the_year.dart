@@ -1,7 +1,7 @@
 // Question: Write a program that calculates the day of the year for a given date in the format "YYYY-MM-DD".
 
 void main() {
-  String date = "2019-02-10";
+  String date = "2025-12-15";
   List<String> dateList = date.split('-');
 
   int year = int.parse(dateList[0]);
